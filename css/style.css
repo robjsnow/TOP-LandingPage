@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* First Section - header, welcome message, first image, first sign-up button */
+.first-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #1f2937;
+	
+}
+
+.header-left {
+	display: flex;
+	padding-right: 110px;
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+
+.header-right {
+	display: flex;
+    padding-top: 20px;
+	padding-left: 40px;
+}
+
+.header-right a {
+	padding: 10px;
+	color: lightgray;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #1f2937;
+	padding: 90px;
+}
+
+.hero-left {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 400px;
+
+}
+
+.hero-left h1 {
+	margin: 0;
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bold;
+	
+
+}
+
+.hero-left p {
+	margin: 0;
+	color: #e5e7eb;
+	font-size: 18px;
+
+}
+
+.hero-left button {
+	margin: 12px 0 0 0;
+	padding: 8px;
+	border-radius: 10px;
+	border: none;
+	width: 110px;
+	background-color: #3882f6;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+.hero-image {
+	padding: 100px;
+	background-color: #6d747dff;
+	color: lightgray;
+	font-size: 18px;
+}
+
+/* Second Section - information, row of images */
+
+.info-container {
+	align-items: center;
+	text-align: center;
+}
+
+.info-container h1 {
+	margin-top: 40px;
+	color: #1f2937;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 800;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	color: #1f2937;
+    text-align: center;
+   
+}
+
+.info .item {
+	max-width: 200px;
+}
+
+.info p{
+	margin-left: 25px;
+	width: 150px;
+}
+
+
+.img-placeholder {
+	margin: 5px 20px 0px 20px;
+	border-width: 4px;
+	border-radius: 16px;
+	border-style: solid;
+	border-color: #3882f6;
+	width: 150px;
+	height: 150px;
+
+}
+
+/* Third section - quote */
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 90px 0;
+	background-color: #e5e7eb;
+
+}
+
+.quote p {
+	margin: 0;
+	max-width: 800px;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: justify;
+}
+
+.author p {
+	margin: 0 0 0 550px;
+	color: #1f2937;
+	font-size: 24px;
+	font-weight: 900;
+	text-align: right;
+}
+
+/* Fourth section - Sign-up message, sign-up button */
+
+.signup-container {
+	display: flex;
+    align-items: center;
+	margin: 100px 200px;
+    padding: 20px 0px;
+	border-radius: 8px;
+    border-color: none;
+    background-color: #3882F6 ;
+
+}
+.sign {
+   flex: 1;
+}
+
+
+.sign.text {
+	text-align: left;
+	color: white;
+
+}
+
+.sign.text h3 {
+	padding: 0;
+	margin: 30px 0px 0px 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.sign.text p {
+	margin: 5px 0px 30px 50px;
+	color: lightgray;
+	font-size: 18px;
+
+}
+
+.sign,#signup-btn {
+	text-align: center;
+
+}
+
+.signup-container button {
+	margin-left: 90px;
+	padding: 6px 30px;
+
+	border-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	background-color: #3882F6;
+	color: #ffffff;
+	font-size: 18px;
+}
+/* Fifth section - footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 0 25px 0;
+	background-color: #1f2937;
+	color: lightgray;
+}
